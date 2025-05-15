@@ -123,25 +123,6 @@ $ cd ..
 $ python setup.py
 ```
 
-<!-- # 【読まなくていいです】Useage(Eclipseを用いて実行可能jarを作る場合)
-Eclipseを用いて実行可能jarを作る場合，以下の手順に従う。
-開発者以外は読み飛ばして問題ない。
-1. 最新のEclipseをインストールする。JavaのFull Editionでよい。（すでにEclipseをインストールしてる場合は飛ばす。）
-2. 本レポジトリをクローン&インポートする。
-[こちらのサイト](https://rainbow-engine.com/github-eclipse-connect/)を参考にするとよい。クローンするとき，「クローン終了後，すべての既存Eclipseプロジェクトをインポート」にチェックを入れることを忘れない。また，クローン後にプロジェクトをインポートしないとJavaのパースペクティブに表示されない。
-3. `src/quabla/QUABLA.java`を右クリックし，`実行>実行の構成`を選ぶ。Javaアプリケーションを選択し，引数のタブから`プログラムの引数`に`config\sample_rocket.json single`を入力して実行する。
-4. Javaプロジェクト上で（Quablaフォルダを）右クリックし，`エクスポート`を選択し，`Java>実行可能JARファイル`を選択し，`次へ`を選択。起動構成は先ほど実行した，`QUABLA - Quabla`を選択し，エクスポート先は`Quabla.py`と同じ階層にする。`完了`を押すとコンパイルが行われる。警告がいっぱい出るけど気にしない。
-5. `Quabla.jar`が指定した場所に生成されていればコンパイル成功。
-6. あとはanacondaとかで適当に`Quabla.py`を実行すればいい。
-Eclipseを使用して編集したい場合はPyDevとPythonをインストールする。 -->
-<!-- 1. 実行時のコマンドラインで機体の諸元を入力したjsonファイルを指定。<br>
-パスの指定方法は相対パスでも絶対パスでもどちらでもよい。
-例えば，あらかじめ入っている`sample_rocket.json`を相対パスで指定する場合，
-コマンドライン引数は`sample_rocket.json`となる。<br>
-`C:\hoge`にある`rocket_config.json`を絶対パスで指定する場合，
-コマンドライン引数は`C:\hoge\rocket_config.json`となる。
-2. `QUABLA.java`を実行。 -->
-
 # Execute
 
 0. anaconda promptを起動し，`Quabla.py`がある階層まで移動する(Windows)。
