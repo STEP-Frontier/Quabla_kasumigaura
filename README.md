@@ -4,6 +4,8 @@ Quabla
 coding UTF-8<br>
 released under [MIT License](LICENSE)
 
+[完全Python版のQuablaはこちらへ](https://github.com/hotegg-main/miniQuabla)
+
 <img src="./Quabla_logo.png" width="400px">
 
 # Features
