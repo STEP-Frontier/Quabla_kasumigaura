@@ -79,7 +79,7 @@
         "img": "PlotLandingScatter/launch_site/img/kasumigaura_lake.png"
     },
     "kasumigaura_lake": {
-        "launch_LLH": [36.021678, 140.456352, 0.0],
+        "launch_LLH": [36.021678, 140.456352, 3.0],
         "type_safety": "polygon",
         "safety_area_LLH": [[36.084218, 140.218302, 0.0],
                              [36.083956, 140.215038, 0.0],
@@ -92,6 +92,21 @@
         "x_offset": 0.0,
         "y_offset": 0.0,
         "img": "PlotLandingScatter/launch_site/img/kasumigaura_lake2.png"
+    },
+    "kasumigaura_lake_small": {
+        "launch_LLH": [36.021678, 140.456352, 3.0],
+        "type_safety": "polygon",
+        "safety_area_LLH": [[36.084218, 140.218302, 0.0],
+                             [36.083956, 140.215038, 0.0],
+                             [36.079616, 140.215431, 0.0],
+                             [36.080484, 140.218827, 0.0],
+                             [36.076120, 140.224268, 0.0],
+                             [36.084179, 140.231486, 0.0]],
+        "xlim_ENU": [-2000, 1000],
+        "ylim_ENU": [-1500, 1000],
+        "x_offset": 0.0,
+        "y_offset": 0.0,
+        "img": "PlotLandingScatter/launch_site/img/kasumigaura_lake_small.png"
     }
 
 }
