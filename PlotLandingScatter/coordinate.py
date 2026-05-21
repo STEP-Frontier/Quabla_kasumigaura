@@ -131,7 +131,7 @@ if __name__ == '__main__':
 
     launch_site_json = json.load(open('./input/launch_site.json', 'r', encoding='utf-8'))
 
-    launch_site = '4'
+    launch_site = '5'
 
     launch_site_info = LaunchSiteInfo(launch_site)
     file_name = launch_site_info.site_name

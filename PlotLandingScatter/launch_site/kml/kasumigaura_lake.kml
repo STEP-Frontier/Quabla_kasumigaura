@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="4">
+            <LineStyle id="5">
+                <color>ff000000</color>
+                <colorMode>normal</colorMode>
+            </LineStyle>
+        </Style>
+        <Style id="8">
+            <IconStyle id="9">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="10">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="13">
+            <LineStyle id="14">
+                <color>ff00d7ff</color>
+                <colorMode>normal</colorMode>
+            </LineStyle>
+        </Style>
+        <Placemark id="3">
+            <name>Area Range</name>
+            <styleUrl>#4</styleUrl>
+            <LineString id="2">
+                <coordinates>140.20991659392627,36.07794760227624,0.0 140.20991573867053,36.086058595054894,0.0 140.22990116578248,36.086058317321324,0.0 140.2298999684245,36.07794732462477,0.0 140.20991659392627,36.07794760227624,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="7">
+            <name>Launch</name>
+            <styleUrl>#8</styleUrl>
+            <Point id="6">
+                <coordinates>140.218243,36.082454,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="12">
+            <name>Safety Area</name>
+            <styleUrl>#13</styleUrl>
+            <LineString id="11">
+                <coordinates>140.218302,36.084218,0.0 140.215038,36.083956,0.0 140.215431,36.079616,0.0 140.218827,36.080484,0.0 140.224268,36.07612,0.0 140.231486,36.084179,0.0 140.218302,36.084218,0.0</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>
